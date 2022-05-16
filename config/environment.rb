@@ -9,7 +9,7 @@ ActionMailer::Base.smtp_settings = {
   :domain => 'thp.site',
   :address => 'in-v3.mailjet.com',
   :tls => true,
-  :port => 465,
+  :port => '465',
   :authentication => :plain,
   :enable_starttls_auto => true
 }
